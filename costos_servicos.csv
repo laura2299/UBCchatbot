@@ -1,0 +1,23 @@
+LABORATORIO;SERVICIO OFERTADO;COSTO CENTRO PUBLICO;COSTO CENTRO PRIVADO
+citomorfología;Estudio morfológico en médula ósea;bs/  150;bs/ 200
+citomorfología;Estudio citoquímico en médula ósea;bs/  100;bs/ 150
+inmunofenotipo;Estudio inmunofenotípico al diagnóstico;bs/  800;bs/ 1000
+inmunofenotipo;Índice de DNA;bs/  500;bs/ 600
+inmunofenotipo;Estudio LCR por inmunofenotipo;bs/  400;bs/ 500
+inmunofenotipo;Enfermedad Mínima Residual;bs/  400;bs/ 500
+inmunofenotipo;Poblaciones linfocitarias (LST);bs/  1000;bs/ 1200
+inmunofenotipo;Valoración de metástasis de linfoma;bs/  1000;bs/ 1200
+inmunofenotipo;Cuantificación CD34+ y viabilidad celular;bs/  500;bs/ 600
+biología molecular;PCR cualitativo;bs/  800;bs/ 1000
+biología molecular;PCR cuantitativo;bs/  1200;bs/ 1400
+biología molecular;Mutaciones LMA (FLT3, CEBPA, NPM1);bs/  2300;bs/ 2500
+genética molecular;Estudio FISH al diagnóstico;bs/  800;bs/ 1000
+genética molecular;Panel Síndrome Mielodisplásico por FISH;bs/  1600;bs/ 1800
+genética molecular;Panel Mieloma por FISH;bs/  1600;bs/ 1800
+genética molecular;Amplificación HER2/neu por FISH;bs/  1000;bs/ 1200
+terapia celular;Cultivo de progenitores Eritroides (CEE);bs/  1000;bs/ 1200
+terapia celular;Terapia celular;variable;variable
+estudios combinados biomol-fish;Panel LMC (BCR-ABL);bs/  1300;bs/ 1700
+estudios combinados biomol-fish;Panel LPA (PML-RARa);bs/  1300;bs/ 1700
+estudios combinados biomol-fish;"Panel immunofenotipo para
+LLA t:9;22 – t:1;19 – t:12;21 – t:4;11";bs/ 2000;bs/ 2500
