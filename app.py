@@ -117,7 +117,13 @@ def recibir_mensaje():
         logger.log_error(f"Error al procesar el mensaje: {str(e)}")
 
     return jsonify({"status": "ok"}), 200
-
+def verificar():
+    verify_token = os.getenv("VERIFY_TOKEN")
+    token = request.args.get("hub.verify_token")
+    challenge = request.args.get("hub.challenge")
+    if token == verify_token:
+        return challenge
+    return "Token inválido", 403
 def enviar_mensaje(telefono, mensaje):
     url = "https://graph.facebook.com/v17.0/{phone_id}/messages"
     headers = {
@@ -133,4 +139,6 @@ def enviar_mensaje(telefono, mensaje):
     logger.log_api_llamada("WhatsApp", f"Status: {response.status_code} - Respuesta: {response.text}")
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
